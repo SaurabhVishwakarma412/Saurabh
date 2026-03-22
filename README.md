@@ -29,7 +29,7 @@ This is my personal portfolio website built with **React.js** and **Tailwind CSS
 
 **Key Highlights:**
 - 🚀 Full Stack Developer with 2.2+ years of experience
-- 💻 320+ LeetCode problems solved
+- 💻 350+ LeetCode problems solved
 - 🏆 7 HackerRank badges
 - 🎓 10+ certifications
 - 📍 Based in Punjab, India (LPU)
@@ -138,10 +138,10 @@ A suite of browser-based mini-games with modular code components and engaging in
 
 ```bash
 # Clone the repository
-git clone https://github.com/SaurabhVishwakarma412/saurabh-portfolio.git
+git clone https://github.com/SaurabhVishwakarma412/saurabh.git
 
 # Navigate to project directory
-cd saurabh-portfolio
+cd saurabh
 
 # Install dependencies
 npm install
