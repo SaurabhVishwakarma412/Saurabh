@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import SectionHeading from '../components/SectionHeading';
 import ProjectCard from '../components/ProjectCard';
 import CertificateCard from '../components/CertificateCard';
@@ -60,12 +61,12 @@ const Home = () => {
                 <FiLinkedin /> LinkedIn
               </a>
 
-              <a
-                href={`mailto:${personalInfo.email}`}
+              <Link
+                to="/contact"
                 className="flex items-center gap-2 px-6 py-3 border-2 border-[#00c853] text-[#00c853] rounded-lg hover:bg-[#00c853] hover:text-black transition-all duration-300 font-['Poppins']"
               >
                 <FiMail /> Contact Me
-              </a>
+              </Link>
             </div>
 
             <div className="flex flex-wrap gap-6 pt-6">

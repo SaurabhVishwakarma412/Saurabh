@@ -4,8 +4,10 @@ import SectionHeading from './SectionHeading';
 import {
   SiC, SiCplusplus, SiPython, SiJavascript, SiPhp,
   SiHtml5, SiCss3, SiTailwindcss, SiReact, SiNodedotjs, SiExpress,
-  SiMysql, SiMongodb, SiPostgresql,
-  SiGit, SiGithub, SiPostman, SiFigma, SiXampp,
+  SiMysql, SiMongodb, SiPostgresql, SiLaravel,
+  SiGit, SiGithub, SiPostman, SiFigma, SiDocker, SiKubernetes,
+  SiGithubactions, SiAmazonaws, SiVercel, SiNetlify, SiSelenium,
+  SiGrafana, SiPrometheus, SiJenkins, SiTerraform,
   SiGoogleanalytics, SiGooglescholar, SiGoogleoptimize, SiGooglecloud
 } from 'react-icons/si';
 import { FaJava } from "react-icons/fa";
@@ -31,6 +33,7 @@ const Skills = ({ skills }) => {
       'CSS': <SiCss3 size={iconSize} className="text-blue-400 group-hover:scale-110" />,
       'Tailwind CSS': <SiTailwindcss size={iconSize} className="text-cyan-400 group-hover:scale-110" />,
       'React.js': <SiReact size={iconSize} className="text-cyan-300 group-hover:scale-110" />,
+      'Laravel': <SiLaravel size={iconSize} className="text-red-500 group-hover:scale-110" />,
       'Node.js': <SiNodedotjs size={iconSize} className="text-green-400 group-hover:scale-110" />,
       'Express.js': <SiExpress size={iconSize} className="text-gray-300 group-hover:scale-110" />,
       'MySQL': <SiMysql size={iconSize} className="text-blue-300 group-hover:scale-110" />,
@@ -39,7 +42,18 @@ const Skills = ({ skills }) => {
       'Git': <SiGit size={iconSize} className="text-orange-400 group-hover:scale-110" />,
       'GitHub': <SiGithub size={iconSize} className="text-white group-hover:scale-110" />,
       'Postman': <SiPostman size={iconSize} className="text-orange-500 group-hover:scale-110" />,
-      'XAMPP': <SiXampp size={iconSize} className="text-orange-400 group-hover:scale-110" />,
+      'Selenium': <SiSelenium size={iconSize} className="text-green-400 group-hover:scale-110" />,
+      'Docker': <SiDocker size={iconSize} className="text-blue-400 group-hover:scale-110" />,
+      'Docker Hub': <SiDocker size={iconSize} className="text-blue-500 group-hover:scale-110" />,
+      'Kubernetes': <SiKubernetes size={iconSize} className="text-blue-500 group-hover:scale-110" />,
+      'Jenkins': <SiJenkins size={iconSize} className="text-red-300 group-hover:scale-110" />,
+      'GitHub Actions': <SiGithubactions size={iconSize} className="text-sky-400 group-hover:scale-110" />,
+      'Terraform': <SiTerraform size={iconSize} className="text-purple-400 group-hover:scale-110" />,
+      'AWS': <SiAmazonaws size={iconSize} className="text-orange-300 group-hover:scale-110" />,
+      'Grafana': <SiGrafana size={iconSize} className="text-orange-400 group-hover:scale-110" />,
+      'Prometheus': <SiPrometheus size={iconSize} className="text-orange-500 group-hover:scale-110" />,
+      'Vercel': <SiVercel size={iconSize} className="text-white group-hover:scale-110" />,
+      'Netlify': <SiNetlify size={iconSize} className="text-teal-300 group-hover:scale-110" />,
       'Figma': <SiFigma size={iconSize} className="text-pink-400 group-hover:scale-110" />,
     };
     return logos[skill] || <span className="text-white">📁</span>;

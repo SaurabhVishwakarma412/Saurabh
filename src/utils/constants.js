@@ -18,8 +18,8 @@ export const personalInfo = {
 // Skills organized by category
 export const skills = {
   languages: ["C", "C++", "Java", "Python", "PHP"],
-  webTechnologies: ["HTML", "CSS","JavaScript", "Tailwind CSS", "React.js", "Node.js", "Express.js", "MySQL", "MongoDB", "PostgreSQL"],
-  tools: ["Git", "GitHub", "Postman", "XAMPP", "Figma"],
+  webTechnologies: ["HTML", "CSS", "JavaScript", "Tailwind CSS", "React.js", "Laravel", "Node.js", "Express.js", "MySQL", "MongoDB", "PostgreSQL"],
+  tools: ["Git", "GitHub", "Postman", "Selenium", "Docker", "Docker Hub", "Kubernetes", "Jenkins", "GitHub Actions", "Terraform", "AWS", "Grafana", "Prometheus", "Vercel", "Netlify", "Figma"],
   softSkills: ["Problem-Solving", "Leadership", "Adaptability", "Teamwork", "Analytical Thinking"]
 };
 
@@ -27,6 +27,22 @@ export const skills = {
 export const projects = [
   {
     id: 1,
+    title: "Irrigoo",
+    description: "Built a smart IoT irrigation ecosystem with Laravel that connects farmers, service providers, and IoT device manufacturers for device monitoring, water usage tracking, service requests, and smart irrigation hardware discovery.",
+    features: [
+      "Role-based dashboards for farmers, service providers, and manufacturers",
+      "Smart irrigation controls with simulated sensor readings and device management",
+      "Weather-based irrigation advice using Open-Meteo APIs",
+      "Service request workflow with provider status updates and earnings tracking"
+    ],
+    tech: ["Laravel", "PHP", "Blade", "Tailwind CSS", "Alpine.js", "Vite", "MySQL", "Open-Meteo API", "PHPUnit"],
+    github: "https://github.com/SaurabhVishwakarma412/Irrigoo",
+    date: "Mar 2026",
+    status: "Completed",
+    version: "v1.0.0"
+  },
+  {
+    id: 2,
     title: "Pediatric Dermatology",
     description: "Developed a full-stack web platform that enables parents to upload images of their child's skin condition and receive remote dermatological assessment through a secure, responsive interface.",
     features: [
@@ -41,7 +57,7 @@ export const projects = [
     version: "v1.0.0"
   },
   {
-    id: 2,
+    id: 3,
     title: "Horticulture Connect",
     description: "Built a full-stack platform that connects farmers, wholesalers, and consumers, enabling direct trade with secure authentication and efficient data management.",
     features: [
@@ -55,21 +71,6 @@ export const projects = [
     date: "Mar 2025",
     status: "Completed",
     version: "v2.0.0"
-  },
-  {
-    id: 3,
-    title: "Browser-Based Mini Games",
-    description: "Engineered a suite of browser-based mini-games with modular code components and visually engaging interfaces.",
-    features: [
-      "Optimized game logic in JavaScript",
-      "Smooth gameplay experience",
-      "Scalable and maintainable codebase"
-    ],
-    tech: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/SaurabhVishwakarma412/MINI-GAMES",
-    date: "Nov 2024",
-    status: "Completed",
-    version: "v3.0.0"
   }
 ];
 
