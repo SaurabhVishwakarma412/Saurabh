@@ -124,20 +124,20 @@ export const certifications = [
 // Achievements/Stats
 export const achievements = {
   leetcode: {
-    solved: 320,
-    easy: 120,
-    medium: 150,
-    hard: 50,
+    solved: 443,
+    easy: 226,
+    medium: 193,
+    hard: 24,
     streak: 45,
     longestStreak: 90,
     badges: 7,
     contribution: 2500
   },
   github: {
-    repos: 32,
-    followers: 3,
-    following: 1,
-    commits: 436,
+    repos: 28,
+    followers: 2,
+    following: 4,
+    commits: 185,
     pullRequests: 38,
     topLang: "JavaScript"
   },
