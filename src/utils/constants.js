@@ -2,7 +2,6 @@
 export const personalInfo = {
   name: "Saurabh Vishwakarma",
   title: "Full Stack Developer & Problem Solver",
-  // email: "avinashsingh7582@gmail.com",
   email: "saurabhkv412@gmail.com",
   phone: "+91-9006848835",
   location: "Punjab, India",
@@ -35,7 +34,7 @@ export const projects = [
       "Weather-based irrigation advice using Open-Meteo APIs",
       "Service request workflow with provider status updates and earnings tracking"
     ],
-    tech: ["Laravel", "PHP", "Blade", "Tailwind CSS", "Alpine.js", "Vite", "MySQL", "Open-Meteo API", "PHPUnit"],
+    tech: ["Laravel", "PHP", "Blade", "Tailwind CSS", "Vite", "MySQL", "PHPUnit"],
     github: "https://github.com/SaurabhVishwakarma412/Irrigoo",
     date: "Mar 2026",
     status: "Completed",
@@ -48,7 +47,9 @@ export const projects = [
     features: [
       "Scalable backend with case management workflows",
       "Medical consultation flow for doctors",
-      "Case review and diagnostic notes system"
+      "Case review and diagnostic notes system",
+      "Inbuild chat system for doctor-parent communication",
+      "Inbuild image upload system with secure storage and retrieval"
     ],
     tech: ["React.js", "Tailwind CSS", "Express.js", "Node.js", "MongoDB"],
     github: "https://github.com/SaurabhVishwakarma412/PedoDerma",
@@ -134,18 +135,13 @@ export const achievements = {
     contribution: 2500
   },
   github: {
-    repos: 28,
+    repos: 30,
     followers: 2,
     following: 4,
-    commits: 185,
+    commits: 296,
     pullRequests: 38,
     topLang: "JavaScript"
   },
-  coding: {
-    platforms: ["LeetCode", "HackerRank"],
-    totalProblems: 320,
-    hackerrankBadges: 7
-  }
 };
 
 // Education
